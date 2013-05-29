@@ -9,35 +9,64 @@
 <script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 </head> 
 <body> 
-
+<!--  pagina 1-->
 <div data-role="page" id="page">
-	<div data-role="header">
-		<h1>Los Rostros</h1>
+	<div data-role="header" data-position="fixed">
+    	<div data-role="navbar" data-iconpos="top" style="width:10%; margin-top:0px; float:left">
+       		 <ul><li><a href="#page2" data-transition="pop"    data-icon="grid"></a></li></ul>
+        </div>
+		<div   style="width:80%; float:left; text-align:center; margin-top:7px;">
+        <span>Los Rostros</span>
+        </div>
+        <div data-role="navbar" data-iconpos="top" style="width:10%; margin-top:0px;">
+       		 <ul><li><a href="#page2" data-transition="pop"  data-icon="info"></a></li></ul>
+        </div>
 	</div>
 	<div data-role="content">	
-		<ul data-role="listview">
+		<!--<ul data-role="listview">
 			<li><a href="#page2">Página dos</a></li>
             <li><a href="#page3">Página tres</a></li>
 			<li><a href="#page4">Página cuatro</a></li>
-		</ul>		
+		</ul>-->		
 	</div>
-	<div data-role="footer">
+	<div data-role="footer" data-position="fixed">
 		<h4>Pie de página</h4>
 	</div>
 </div>
+<!-- fin pagina 1 -->
 
+<!--  menu -->
+
+
+<!--menu-->
+<div id="menu_principal" style="display:none">
+	<ul>
+    	<li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+	</ul>
+</div>
+
+<!--   fin menu -->
+<!--pagina 2 -->
 <div data-role="page" id="page2">
-	<div data-role="header">
-		<h1>Página dos</h1>
+	<div data-role="header" data-position="fixed">
+		<div data-role="header">
+		<h1>Informacion</h1>
+        <a  data-role="button" data-theme="a" data-direction="reverse" data-rel="back" data-icon="arrow-l" data-iconpos="notext">Atras</a>
+	</div>
 	</div>
 	<div data-role="content">	
 		Contenido		
 	</div>
-	<div data-role="footer">
+	<div data-role="footer" data-position="fixed">
 		<h4>Pie de página</h4>
 	</div>
 </div>
+<!-- fin  pagina 2-->
 
+<!-- pagina 3 -->
 <div data-role="page" id="page3">
 	<div data-role="header">
 		<h1>Página tres</h1>
@@ -49,7 +78,10 @@
 		<h4>Pie de página</h4>
 	</div>
 </div>
+<!-- fin pagina 3>
 
+
+<!--  pagina  4 -->
 <div data-role="page" id="page4">
 	<div data-role="header">
 		<h1>Página cuatro</h1>
@@ -61,6 +93,6 @@
 		<h4>Pie de página</h4>
 	</div>
 </div>
-
+<!-- fin paginaa 4 -->
 </body>
 </html>
