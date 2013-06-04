@@ -51,13 +51,12 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 }
 .home-device {/*borde negro*/
 
-	width:93%;
+	width:92%;
 	height:100%;
 	padding:30px 40px;
 	background:#111;
 	margin:0 auto;
 	position:relative;	
-	box-shadow: 0px 0px 5px #000;
 	
 }
 .home-device .arrow-left {
