@@ -226,8 +226,8 @@ body {
 	border-bottom: 1px solid #ccc;
 }
 .home-device {
-	width:640px;
-	height:300px;
+	width:94%;
+	height:100%;
 	padding:30px 40px;
 	border-radius:20px;
 	background:#111;
@@ -267,6 +267,7 @@ body {
 	left: 17px;
 	background: url(../img/shadow.png);
 }
+/*imagen de free
 .sm-free {
 	width: 105px;
 	height: 61px;
@@ -275,7 +276,7 @@ body {
 	right: -2px;
 	top: -2px;
 	z-index: 2;
-}
+}*/
 .swiper1, .swiper1 .swiper-slide{
 	width: 640px;
 	height: 300px;
