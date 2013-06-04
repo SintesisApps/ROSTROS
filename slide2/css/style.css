@@ -51,8 +51,8 @@ img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 }
 .home-device {/*borde negro*/
 
-	width:640px;
-	height:300px;
+	width:93%;
+	height:100%;
 	padding:30px 40px;
 	border-radius:20px;
 	background:#111;
