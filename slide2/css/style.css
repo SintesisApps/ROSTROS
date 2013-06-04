@@ -85,6 +85,7 @@ margin: 0 auto;
 	width: 640px;
 	height: 300px;
 	position: relative;
+	margin-left:40px;
 }
 .sm-shadow {
 	position: absolute;
